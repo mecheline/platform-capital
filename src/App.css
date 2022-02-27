@@ -1,0 +1,324 @@
+body {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+}
+.tangerine {
+  font-family: "Tangerine", cursive;
+  color: indigo;
+}
+.tangerine1 {
+  font-family: "Tangerine", cursive;
+  color: darkgoldenrod;
+}
+.federica {
+  font-family: "Merriweather", serif;
+}
+
+a {
+  color: wheat !important;
+}
+
+a.active {
+  color: white !important;
+  background-color: darkgoldenrod !important;
+}
+.nav-style {
+  background-image: url(images/image6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sidenav-style {
+  background-image: url(images/image6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1 {
+  color: darkgoldenrod !important;
+}
+
+blockquote {
+  border-left: 5px solid goldenrod !important;
+}
+.learn-more-button-style {
+  border: 1px solid !important;
+  margin-top: 2rem;
+  background-color: transparent !important;
+}
+.learn-more-button-style:hover {
+  color: white;
+  background-color: darkgoldenrod !important;
+  border-radius: 1rem !important;
+}
+.our-goal-button {
+  border: 1px solid !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.our-goal-button:hover {
+  background-color: indigo !important;
+  color: white !important;
+  border-radius: 1rem !important;
+}
+.container-style {
+  background: url(images/image5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left1 {
+  max-width: 40%;
+}
+.right1 {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.circle-inner {
+  height: 30%;
+  width: 150%;
+  font-weight: normal;
+  font-size: large;
+  color: white;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+@media screen and (max-width: 600px) {
+  .left1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  .circle-inner {
+    width: 80%;
+  }
+  .left1 {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-style h5 {
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container-style {
+    margin-top: 3rem;
+  }
+}
+.section-3 {
+  border: 1px solid blue;
+  border-radius: 1rem !important;
+  height: 15rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .section3-h5 {
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section3-h5 {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: x-large;
+  }
+}
+@media screen and (max-width: 992px) {
+  .our-business h3 {
+    font-size: large;
+    font-weight: 500;
+  }
+  .our-business h4 {
+    font-size: medium;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .our-business h3 {
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .our-business h4 {
+    font-size: large;
+    font-weight: 500;
+  }
+}
+
+.tabs a {
+  color: gray !important;
+  transition: none !important;
+  background: none !important;
+}
+
+.tabs .indicator {
+  background-color: indigo !important;
+}
+.tabs .tab a:focus.active {
+  color: indigo !important;
+  font-weight: 800;
+  background-color: snow !important;
+}
+ul.tabs {
+  background-color: rgb(0, 0, 0, 0.01) !important;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+}
+.principal .image {
+  width: 50%;
+}
+.principal .text {
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.principal .text1 {
+  width: 50%;
+  margin-right: 3rem;
+}
+.principal .image1 {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .principal .text {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .principal .text1 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .principal .image {
+    width: 0px;
+  }
+  .principal .image1 {
+    width: 0px;
+  }
+}
+
+.principal-investment-link a {
+  background-color: transparent !important;
+  color: indigo !important;
+  font-weight: bold !important;
+  border: 1px solid indigo !important;
+}
+
+.principal-investment-link a:hover {
+  background-color: indigo !important;
+  color: white !important;
+  font-weight: bold !important;
+  border: 1px solid indigo !important;
+}
+.verticals {
+  background: rgb(77, 17, 133);
+  height: auto !important;
+}
+
+.education {
+  border-right: 5px !important;
+
+  border-color: white !important;
+}
+
+.vertical-hr {
+  width: 10rem;
+  color: grey !important;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: baseline;
+  float: right;
+}
+.footer-links li {
+  padding-right: 1rem;
+}
+.page-footer .footer-hr {
+  font-weight: 100 !important;
+  margin-top: -10px !important;
+}
+.social-style {
+  display: flex;
+}
+.social-style li {
+  padding-right: 1rem;
+}
+.parallax-container {
+  height: 15rem !important;
+  position: relative !important;
+}
+
+.overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgb(0, 0, 0, 0.5) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vertical {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.vertical-items {
+  width: 30%;
+  height: 30%;
+}
+@media screen and (max-width: 660px) {
+  .vertical-items {
+    width: 40%;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 661px) {
+  .vertical-items {
+    width: 30%;
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .vertical-items {
+    width: 20%;
+    margin: 1rem;
+  }
+}
