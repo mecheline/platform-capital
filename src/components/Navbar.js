@@ -5,7 +5,9 @@ import { Link, NavLink } from "react-router-dom";
 export const Navbar = () => {
   useEffect(() => {
     var elems = document.querySelectorAll(".sidenav");
-    M.Sidenav.init(elems, {});
+    M.Sidenav.init(elems, {
+      inDuration: 1000,
+    });
   }, []);
 
   // useEffect(() => {
@@ -61,7 +63,7 @@ export const Navbar = () => {
         </div>
       </nav>
 
-      <ul class="sidenav sidenav-style" id="mobile-demo">
+      <ul class="sidenav sidenav-close sidenav-style" id="mobile-demo">
         <li>
           <NavLink to="/">
             <i class="material-icons white-text">home</i>

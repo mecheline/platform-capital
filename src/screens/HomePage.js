@@ -18,6 +18,11 @@ import { FloatingButton } from "../components/FloatingButton";
 
 export const HomePage = () => {
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
     var el = document.querySelectorAll(".tabs");
     M.Tabs.init(el, {
       swipeable: true,
