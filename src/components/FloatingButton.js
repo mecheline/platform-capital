@@ -5,15 +5,17 @@ import { Link } from "react-router-dom";
 export const FloatingButton = () => {
   useEffect(() => {
     var elems = document.querySelectorAll(".fixed-action-btn");
-    M.FloatingActionButton.init(elems, {});
+    M.FloatingActionButton.init(elems, {
+      hoverEnabled: false,
+    });
     var elemsTooltip = document.querySelectorAll(".tooltipped");
     M.Tooltip.init(elemsTooltip, {});
   }, []);
 
   return (
     <div>
-      <div class="fixed-action-btn">
-        <Link to="#" class="btn-floating indigo">
+      <div class="fixed-action-btn click-to-toggle">
+        <Link to="#" class="btn-floating green">
           <i class="large material-icons">mode_edit</i>
         </Link>
         <ul>
