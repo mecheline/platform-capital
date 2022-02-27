@@ -59,6 +59,14 @@ blockquote {
   background-color: darkgoldenrod !important;
   border-radius: 1rem !important;
 }
+@media screen and (max-width: 600px) {
+  .learn-more-button-style {
+    border: 1px solid !important;
+    margin-top: 2rem !important;
+    background-color: transparent !important;
+    margin-bottom: 2rem !important;
+  }
+}
 .our-goal-button {
   border: 1px solid !important;
   background-color: transparent !important;
