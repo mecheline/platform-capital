@@ -5,8 +5,10 @@ import M from "materialize-css";
 
 import aboutus from "../images/aboutus.jpg";
 import logo from "../images/logo.png";
+import { useDocumentTitle } from "./../components/TitleChange";
 
 export const AboutUsPage = () => {
+  useDocumentTitle("Platform | About");
   useEffect(() => {
     var elems = document.querySelectorAll(".modal");
     M.Modal.init(elems, {

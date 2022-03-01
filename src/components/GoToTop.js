@@ -35,17 +35,14 @@ export const GoToTop = () => {
 
   return (
     <div
-      className="scroll-to-top fixed-action-btn"
+      className="scroll-to-top fixed-action-btn tooltipped"
       style={{ right: "auto", marginLeft: "10px" }}
+      data-position="right"
+      data-tooltip="Go to top"
     >
       {isVisible && (
         <div onClick={scrollToTop} className="btn-floating">
-          <i
-            className="material-icons tooltipped"
-            data-position="right"
-            data-tooltip="Go to top"
-            style={{ backgroundColor: "red" }}
-          >
+          <i className="material-icons " style={{ backgroundColor: "red" }}>
             arrow_upward
           </i>
         </div>

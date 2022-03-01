@@ -14,8 +14,10 @@ import image15 from "../images/image15.jpg";
 import image7 from "../images/image7.jpg";
 import image8 from "../images/image8.jpg";
 import image9 from "../images/image9.jpg";
+import { useDocumentTitle } from "./../components/TitleChange";
 
 export const HomePage = () => {
+  useDocumentTitle("Platform | Home");
   useEffect(() => {
     window.scrollTo({
       top: 0,
