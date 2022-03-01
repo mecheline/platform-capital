@@ -5,11 +5,7 @@ import M from "materialize-css";
 
 import { Verticals } from "../components/Verticals";
 
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
-import image4 from "../images/image4.jpg";
-import image14 from "../images/image14.jpg";
+import image10 from "../images/image10.jpg";
 import image15 from "../images/image15.jpg";
 import image7 from "../images/image7.jpg";
 import image8 from "../images/image8.jpg";
@@ -46,11 +42,12 @@ export const HomePage = () => {
     <div>
       <div class="slider">
         <ul class="slides">
-          <li>
-            <img src={image1} />
-            <div class="caption left-align">
+          <li className="slider-style">
+            <img src={image7} className="slider-image" />
+
+            <div class="img-overlay">
               <h3 className="section1">Building Sustainable Enterprise</h3>
-              <h5 class="light grey-text text-lighten-1 left-align">
+              <h5 class="light grey-text text-lighten-1 ">
                 We leverage our local presence, global network, operating
                 experience, <br />
                 technical partnerships, and knowledge to build champion
@@ -65,11 +62,11 @@ export const HomePage = () => {
               </Link>
             </div>
           </li>
-          <li>
-            <img src={image2} />
-            <div class="caption center-align">
+          <li className="slider-style">
+            <img src={image8} className="slider-image" />
+            <div class=" img-overlay">
               <h3 className="section1">Building Sustainable Enterprise</h3>
-              <h5 class="light grey-text text-lighten-1 center-align ">
+              <h5 class="light grey-text text-lighten-1 ">
                 We leverage our local presence, global network, operating
                 experience,
                 <br /> technical partnerships, and knowledge to build champion
@@ -84,11 +81,11 @@ export const HomePage = () => {
               </Link>
             </div>
           </li>
-          <li>
-            <img src={image3} />
-            <div class="caption center-align">
+          <li className="slider-style">
+            <img src={image9} className="slider-image" />
+            <div class=" img-overlay">
               <h3 className="section1">Building Sustainable Enterprise</h3>
-              <h5 class="light grey-text text-lighten-1 center-align">
+              <h5 class="light grey-text text-lighten-1 ">
                 We leverage our local presence, global network, operating
                 experience,
                 <br /> technical partnerships, and knowledge to build champion
@@ -102,11 +99,11 @@ export const HomePage = () => {
               </Link>
             </div>
           </li>
-          <li>
-            <img src={image4} />
-            <div class="caption right-align">
+          <li className="slider-style">
+            <img src={image10} className="slider-image" />
+            <div class=" img-overlay">
               <h3 className="section1">Building Sustainable Enterprise</h3>
-              <h5 class="light grey-text text-lighten-1 right-align">
+              <h5 class="light grey-text text-lighten-1">
                 We leverage our local presence, global network, operating
                 experience, <br /> technical partnerships, and knowledge to
                 build champion businesses.

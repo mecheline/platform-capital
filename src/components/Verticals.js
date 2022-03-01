@@ -4,7 +4,8 @@ export const Verticals = () => {
   return (
     <div>
       <div className="verticals">
-        <div className="container">
+        <div className=" container">
+          <div className="overlay"></div>
           <h1
             className="white-text  center tangerine1"
             style={{ paddingTop: "1rem" }}
