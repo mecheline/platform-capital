@@ -9,6 +9,8 @@ import { InvestorPortalPage } from "./screens/InvestorPortalPage";
 import { MediaPage } from "./screens/MediaPage";
 import { ContactUsPage } from "./screens/ContactUsPage";
 import { Footer } from "./components/Footer";
+import { GoToTop } from "./components/GoToTop";
+import { FloatingButton } from "./components/FloatingButton";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/media" element={<MediaPage />}></Route>
         <Route path="/contact" element={<ContactUsPage />}></Route>
       </Routes>
+      <FloatingButton />
+      <GoToTop />
       <Footer />
     </Router>
   );

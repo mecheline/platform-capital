@@ -5,10 +5,6 @@ body {
 @media screen and (max-width: 600px) {
   body,
   html {
-    /* margin: 0;
-    padding: 0; */
-    /* ;
-    height: 100%; */
     width: 100%;
     overflow-x: hidden;
   }
@@ -16,10 +12,6 @@ body {
 
 @media screen and (max-width: 992px) and (min-width: 601px) {
   body {
-    /* margin: 0;
-    padding: 0; */
-    /* width: 100%;
-    height: 100%; */
     width: 100%;
     overflow-x: hidden;
   }
@@ -351,4 +343,141 @@ ul.tabs {
     width: 20%;
     margin: 1rem;
   }
+}
+/* about page style */
+
+.bg-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-image: url(images/about1.jpg);
+  background-position: 50% 50%;
+}
+.overlay-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-below {
+  position: absolute;
+  top: 0;
+  left: auto;
+  height: 30vh;
+  width: 60vw;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgb(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+}
+@media screen and (max-width: 600px) {
+  .overlay-below {
+    position: absolute;
+    top: 0;
+    left: auto;
+    height: 100vh;
+    width: 100vw;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgb(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(232, 224, 224) !important;
+}
+.modal {
+  background-color: rgb(232, 224, 224) !important;
+  border-radius: 1rem !important;
+}
+.modal-content > h4 {
+  color: black;
+  text-align: center;
+}
+.modal-content > p {
+  text-align: center;
+  color: black;
+}
+.request > button {
+  background-color: #1a237e !important;
+  color: white;
+}
+.request > button:hover {
+  background-color: rgb(128, 52, 182) !important;
+  color: white;
+  border-radius: 10px;
+}
+.modal-css > button {
+  background-color: transparent;
+  border: 1px solid darkgoldenrod;
+}
+.modal-css > button:hover {
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
+.modal-footer {
+  background-color: rgb(232, 224, 224) !important ;
+}
+.modal-footer > button {
+  background-color: red !important ;
+}
+
+.logo {
+  width: 25% !important;
+}
+.image-ceo {
+  width: 25% !important;
+}
+.modal-css {
+  width: 30% !important;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem;
+  }
+  .image-ceo {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem;
+  }
+  .modal-css {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem;
+  }
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+.input-field label {
+  color: black !important;
+}
+
+/* floating action button*/
+.fixed-action-btn .top {
+  right: auto !important;
 }

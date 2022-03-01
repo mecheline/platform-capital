@@ -15,7 +15,7 @@ export const FloatingButton = () => {
   return (
     <div>
       <div class="fixed-action-btn click-to-toggle">
-        <Link to="#" class="btn-floating green">
+        <Link to="#" class="btn-floating green" style={{ left: "auto" }}>
           <i class="large material-icons">mode_edit</i>
         </Link>
         <ul>
@@ -34,7 +34,7 @@ export const FloatingButton = () => {
               to="/about"
               class="btn-floating transparent tooltipped"
               data-position="left"
-              data-tooltip="About"
+              data-tooltip="About Us"
             >
               <i className="material-icons red-text">business</i>
             </Link>
@@ -84,7 +84,7 @@ export const FloatingButton = () => {
               to="/contact"
               class="btn-floating transparent tooltipped"
               data-position="left"
-              data-tooltip="Home"
+              data-tooltip="Contact Us"
             >
               <i className="material-icons red-text">location_on</i>
             </Link>

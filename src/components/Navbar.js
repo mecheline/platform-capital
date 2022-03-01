@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import M from "materialize-css";
 import { Link, NavLink } from "react-router-dom";
 
+import logo from "../images/logo.png";
+
 export const Navbar = () => {
   useEffect(() => {
     var elems = document.querySelectorAll(".sidenav");
@@ -31,7 +33,7 @@ export const Navbar = () => {
         <div className="container">
           <div class="nav-wrapper">
             <Link to="/" class="brand-logo">
-              Platform Capital
+              <img src={logo} />
             </Link>
             <Link to="#" data-target="mobile-demo" class="sidenav-trigger">
               <i class="material-icons">menu</i>

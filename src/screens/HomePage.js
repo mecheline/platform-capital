@@ -14,7 +14,6 @@ import image15 from "../images/image15.jpg";
 import image7 from "../images/image7.jpg";
 import image8 from "../images/image8.jpg";
 import image9 from "../images/image9.jpg";
-import { FloatingButton } from "../components/FloatingButton";
 
 export const HomePage = () => {
   useEffect(() => {
@@ -400,7 +399,7 @@ export const HomePage = () => {
 
       {/* verticals */}
       <Verticals />
-      <FloatingButton />
+
       {/* bottom-slider */}
       <div></div>
     </div>
